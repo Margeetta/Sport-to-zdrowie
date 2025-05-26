@@ -1,0 +1,165 @@
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F5DEB3;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #FF4500;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 2em;
+}
+ul {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-left: 25px;
+  line-height: 1.6;
+}
+
+ul li {
+  list-style-type: disc;
+}
+
+.banner {
+  width: 50%;
+  height: auto;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.menu-glowne ul {
+  background-color: #2c3e50;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu-glowne li {
+  margin: 0;
+}
+
+.menu-glowne a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.menu-glowne a:hover {
+  background-color: #FF4500;
+}
+
+main {
+  padding: 20px;
+}
+
+.ramka {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #FF4500;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+footer {
+  text-align: center;
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+.sekcja-glowna {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  margin: 30px auto;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.slider {
+  flex: 1;
+  min-width: 300px;
+  max-width: 700px;
+}
+
+.reklama {
+  flex: 0 0 260px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px dashed #FF4500;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.reklama h3 {
+  color: #FF4500;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.reklama p {
+  font-size: 0.9em;
+  margin-bottom: 12px;
+}
+
+.reklama img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.btn-reklama {
+  display: inline-block;
+  background-color: #FF4500;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+  font-size: 0.9em;
+}
+
+.btn-reklama:hover {
+  background-color: #e03e00;
+}

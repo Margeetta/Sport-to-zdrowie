@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Małgorzata Kowal">
+  <meta name="description" content="Strona o tematyce sportowej">
+  <meta name="keywords" content="sport, zdrowie, aktywność fizyczna">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sport to zdrowie</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut" href="banner.jpg" />
+  <link rel="stylesheet" href="slides.css">
+  <link rel="stylesheet" type="text/css" href="galeria.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    table, td {
+      border: 1px solid;
+    }
+    th {
+      color: lightcoral;
+      border: dotted;
+      background-color: white;
+    }
+    h1 {
+      background-color: #FF4500;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="banner.jpg" alt="Baner sportowy" class="banner">
+    <h1>Sport to zdrowie</h1>
+  </header>
+
+  <!-- Menu główne -->
+  <nav class="menu-glowne">
+    <ul>
+      <li><a href="index.html">Strona główna</a></li>
+      <li><a href="galeria.html">Galeria</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+      <li><a href="formularz.html">Formularz</a></li>
+      <li><a href="ćwiczenia.html">Ćwiczenia</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+       </div>
+    <h2>Dlaczego warto uprawiać sport?</h2>
+    <p><strong>Sport</strong> pomaga zachować zdrowie fizyczne i psychiczne. Wzmacnia odporność, poprawia samopoczucie i kondycję.</p>
+    <hr>
+    <ul>
+      <li><strong>Poprawa kondycji</strong> – lepsza wydolność organizmu</li>
+      <li><strong>Redukcja stresu</strong> – działa pozytywnie na psychikę</li>
+      <li><strong>Lepsza sylwetka</strong> – ćwiczenia + dieta dają efekty</li>
+    </ul>
+  </section>
+  <p>Regularne ćwiczenia pomagają wzmocnić konkretne partie mięśniowe, poprawić sylwetkę i zdrowie ogólne.</p>
+
+  <ul>
+    <li>Wzmacniają układ sercowo-naczyniowy</li>
+    <li>Poprawiają samopoczucie i redukują stres</li>
+    <li>Zwiększają siłę mięśni i elastyczność</li>
+    <li>Pomagają w utrzymaniu prawidłowej masy ciała</li>
+    <li>Poprawiają koordynację i równowagę</li>
+  </ul>
+
+  <div class="sekcja-glowna">
+    <section class="slider">
+      <div class="slides">
+        <!-- Slajd 1 -->
+        <input id="radio1" type="radio" name="slides" checked>
+        <div class="slide">
+          <img src="bieganie.jpg">
+          <div class="caption">1) Bieganie</div>
+          <label class="last" for="radio3">&lt;</label>
+          <label class="next" for="radio2">&gt;</label>
+        </div>
+
+        <!-- Slajd 2 -->
+        <input id="radio2" type="radio" name="slides">
+        <div class="slide">
+          <img src="rower.jpg">
+          <div class="caption">2) Jazda na rowerze</div>
+          <label class="last" for="radio1">&lt;</label>
+          <label class="next" for="radio3">&gt;</label>
+        </div>
+
+        <!-- Slajd 3 -->
+        <input id="radio3" type="radio" name="slides">
+        <div class="slide">
+          <img src="pływanie.jpg">
+          <div class="caption">3) Pływanie</div>
+          <label class="last" for="radio2">&lt;</label>
+          <label class="next" for="radio1">&gt;</label>
+        </div>
+      </div>
+    </section>
+
+    <aside class="reklama">
+      <h3> Promocja!</h3>
+      <p><strong>Zapisz się na darmowy trening</strong> i otrzymaj <span style="color:#FF4500;">zniżkę 20%</span>!</p>
+      <img src="trening.jpg" alt="Reklama treningu personalnego">
+      <a href="formularz.html" class="btn-reklama">Zapisz się teraz</a>
+    </aside>
+  </div>
+
+  <div class="tabela">
+    <h2>Porównanie aktywności fizycznych</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Aktywność fizyczna</th>
+          <th>Spalone kcal / godz.</th>
+          <th>Koszt trenowania</th>
+          <th>Uwagi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Bieganie</td>
+          <td>600–800</td>
+          <td>Niski</td>
+          <td>Nie wymaga sprzętu, świetne dla kondycji</td>
+        </tr>
+        <tr>
+          <td>Jazda na rowerze</td>
+          <td>400–700</td>
+          <td>Średni</td>
+          <td>Nie obciąża stawów, dobra rekreacja</td>
+        </tr>
+        <tr>
+          <td>Pływanie</td>
+          <td>500–700</td>
+          <td>Średni/Wysoki</td>
+          <td>Wzmacnia całe ciało, polecane przy urazach</td>
+        </tr>
+        <tr>
+          <td>Zumba</td>
+          <td>400–600</td>
+          <td>Średni</td>
+          <td>Energetyczna i zabawna forma cardio</td>
+        </tr>
+        <tr>
+          <td>Wspinaczka</td>
+          <td>600–900</td>
+          <td>Wysoki</td>
+          <td>Buduje siłę i koncentrację</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</main>
